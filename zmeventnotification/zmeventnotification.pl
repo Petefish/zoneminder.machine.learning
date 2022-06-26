@@ -1824,9 +1824,9 @@ sub sendOverFCM {
 sub sendOverFCMV1 {
 
   use constant NINJA_FCMV1_TOKEN =>
-    'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW5lcmF0b3IiOiJwbGlhYmxlIHBpeGVscyIsImlhdCI6MTYwMTIwOTUyNSwiY2xpZW50Ijoiem1uaW5qYSJ9.mYgsZ84i3aUkYNv8j8iDsZVVOUIJmOWmiZSYf15O0zc';
+    'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW5lcmF0b3IiOiJwbGlhYmxlIHBpeGVscyIsImlhdCI6MTY1NjI0NTA1MSwiY2xpZW50Ijoiem1uaW5qYSJ9.LkufAg8hxk2_baXPw_XyXi2hpk1t1UMtNJfRxn7BYp8';
   use constant NINJA_FCMV1_URL =>
-    'https://us-central1-ninja-1105.cloudfunctions.net/send_push';
+    'https://us-central1-able-river-354510.cloudfunctions.net/send_push';
 
   my $alarm      = shift;
   my $obj        = shift;
